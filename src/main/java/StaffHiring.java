@@ -17,7 +17,7 @@ public class StaffHiring extends Staff{
     public String printStaffHiring(){
         System.out.println("Staff Members: " + getStaffNumber());
         System.out.println("Staff Location: " + getStaffLocation());
-        System.out.println("Staff Location: " + getStaffHiringProcess());
+        System.out.println("Staff Hiring: " + getStaffHiringProcess());
 
         return getStaffNumber() + getStaffLocation() + getStaffHiringProcess();
 
